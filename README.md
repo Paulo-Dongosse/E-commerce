@@ -1,4 +1,4 @@
-# 📦 Sistema de E-commerce - Modelo de Banco de Dados  
+# Sistema de E-commerce - Modelo de Banco de Dados  
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)  
 ![Database](https://img.shields.io/badge/Database-Modelagem-blue)  
@@ -9,30 +9,30 @@ O projeto foi desenvolvido utilizando o site 👉 [dbdesigner.net](https://erd.d
 
 ---
 
-## 📑 Sumário
-- [📖 Sobre o Projeto](#-sobre-o-projeto)
-- [🗂️ Modelo Entidade-Relacionamento (MER)](#%EF%B8%8F-modelo-entidade-relacionamento-mer)
-- [💳 Tipos de Pagamento](#-tipos-de-pagamento)
-- [⚙️ Tecnologias e Ferramentas](#%EF%B8%8F-tecnologias-e-ferramentas)
-- [🚀 Roadmap](#-roadmap)
-- [🤝 Como Contribuir](#-como-contribuir)
-- [📜 Licença](#-licença)
+## Sumário
+- [ Sobre o Projeto](#-sobre-o-projeto)
+- [ Modelo Entidade-Relacionamento (MER)](#%EF%B8%8F-modelo-entidade-relacionamento-mer)
+- [ Tipos de Pagamento](#-tipos-de-pagamento)
+- [ Tecnologias e Ferramentas](#%EF%B8%8F-tecnologias-e-ferramentas)
+- [ Roadmap](#-roadmap)
+- [ Como Contribuir](#-como-contribuir)
+- [ Licença](#-licença)
 
 ---
 
 ## 📖 Sobre o Projeto
 O objetivo é **estruturar um banco de dados para E-commerce**, contemplando:  
-✔️ Cadastro de clientes (**Pessoa Física e Jurídica**)  
-✔️ Controle de fornecedores e produtos  
-✔️ Gestão de estoque  
-✔️ Registro de pedidos, itens, pagamentos e entregas  
-✔️ Suporte a diferentes formas de pagamento e controle de status de entrega  
+- Cadastro de clientes (**Pessoa Física e Jurídica**)
+- Controle de fornecedores e produtos
+- Gestão de estoque
+- Registro de pedidos, itens, pagamentos e entregas
+- Suporte a diferentes formas de pagamento e controle de status de entrega  
 
 Esse modelo poderá servir como **base para implementação de sistemas reais** de E-commerce.  
 
 ---
 
-## 🗂️ Modelo Entidade-Relacionamento (MER)
+##  Modelo Entidade-Relacionamento (MER)
 
 📌 **Primeira versão (estrutura inicial):**  
 ![MER Inicial](./e-commerce_1.png)
@@ -42,15 +42,15 @@ Esse modelo poderá servir como **base para implementação de sistemas reais** 
 
 ---
 
-## 💳 Tipos de Pagamento  
+## Tipos de Pagamento  
 
 Nosso modelo contempla múltiplas formas de pagamento, permitindo maior flexibilidade ao cliente:  
 
 - **Pix** ⚡ → Pagamento instantâneo via chave ou QR Code.  
-- **Boleto Bancário** 🧾 → Geração de boleto para pagamento em bancos ou apps.  
-- **Cartão de Crédito/Débito** 💳 → Pagamento imediato ou parcelado.  
-- **Transferência Bancária** 🏦 → TED, DOC ou PIX agendado.  
-- **Carteiras Digitais** 📱 → Integração com PayPal, Mercado Pago, Google Pay, etc.  
+- **Boleto Bancário**  → Geração de boleto para pagamento em bancos ou apps.  
+- **Cartão de Crédito/Débito** → Pagamento imediato ou parcelado.  
+- **Transferência Bancária**  → TED, DOC ou PIX agendado.  
+- **Carteiras Digitais**  → Integração com PayPal, Mercado Pago, Google Pay, etc.  
 
 Cada pagamento possui campos para **status** e **dados adicionais**, permitindo rastreabilidade e controle antifraude.  
 
@@ -62,11 +62,10 @@ Cada pagamento possui campos para **status** e **dados adicionais**, permitindo 
 
 ---
 
-## 🚀 Roadmap  
-
-✅ Modelagem inicial MER  
-✅ Estrutura de entidades normalizadas  
-✅ Relacionamentos com cardinalidade  
+## 🚀 Roadmap 
+- Modelagem inicial MER
+- Estrutura de entidades normalizadas
+- Relacionamentos com cardinalidade  
 
 🔜 Futuras implementações:  
 - [ ] Scripts SQL para criação das tabelas  
@@ -77,15 +76,15 @@ Cada pagamento possui campos para **status** e **dados adicionais**, permitindo 
 
 ---
 
-## 🤝 Como Contribuir  
+##  Como Contribuir  
 
 Quer contribuir? Siga os passos abaixo:  
 
-1. Faça um **fork** do projeto 🍴  
+1. Faça um **fork** do projeto   
 2. Crie uma branch: `git checkout -b minha-feature`  
 3. Commit suas mudanças: `git commit -m 'Adicionei uma nova feature'`  
 4. Envie para o repositório: `git push origin minha-feature`  
-5. Abra um **Pull Request** 🚀  
+5. Abra um **Pull Request**  
 
 ---
 
